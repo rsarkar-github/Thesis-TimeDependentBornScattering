@@ -11,7 +11,7 @@ configuration['log-level'] = 'WARNING'
 
 if __name__ == "__main__":
 
-    basepath = "TimeDependentBornScattering/"
+    basepath = "Thesis-TimeDependentBornScattering/"
     datadir = basepath + "Data/"
     filestr = "p07_sigsbee1_lo_multi_shot"
 
@@ -32,7 +32,7 @@ if __name__ == "__main__":
     }
 
     # Load full Sigsbee model
-    vel_sigsbee = np.load("TimeDependentBornScattering/Data/sigsbee.npz")["arr_0"]
+    vel_sigsbee = np.load("Thesis-TimeDependentBornScattering/Data/sigsbee.npz")["arr_0"]
     Nx = vel_sigsbee.shape[0]
     Nz = vel_sigsbee.shape[1]
 
@@ -206,4 +206,4 @@ if __name__ == "__main__":
     )
 
     # Save results
-    np.savez("TimeDependentBornScattering/Data/" + filestr + "_ir0.npz", dm_invert, resid, cgobj)
+    np.savez("Thesis-TimeDependentBornScattering/Data/" + filestr + "_ir0.npz", dm_invert, resid, cgobj)

@@ -24,7 +24,7 @@ if __name__ == "__main__":
     - Receivers placed at every grid point at top of model, depth 20 m
     """
 
-    basepath = "TimeDependentBornScattering/"
+    basepath = "Thesis-TimeDependentBornScattering/"
     figdir = basepath + "Fig/"
 
     # -----------------------------------------------------------------------------

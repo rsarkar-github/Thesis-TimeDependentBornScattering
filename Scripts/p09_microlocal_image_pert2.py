@@ -12,7 +12,7 @@ configuration['log-level'] = 'WARNING'
 if __name__ == "__main__":
 
 
-    basepath = "TimeDependentBornScattering/"
+    basepath = "Thesis-TimeDependentBornScattering/"
     datadir = basepath + "Data/"
     filestr = "p09_microlocal_image_pert2"
 

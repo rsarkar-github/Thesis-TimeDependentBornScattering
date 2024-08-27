@@ -53,3 +53,7 @@ conda install -c numba numba=0.56.4
 conda install matplotlib=3.7.1
 pip install devito==4.8.0
 ```
+
+# Contact
+
+If you discover any bugs, please report them to me at ```rsarkar at stanford dot edu```

@@ -15,7 +15,7 @@ if __name__ == "__main__":
     dz = dx   # spatial grid point distance in z-direction (m)
 
     # Define model filename
-    name_vp = "TimeDependentBornScattering/Data/marmousi_II_marine.vp"
+    name_vp = "Thesis-TimeDependentBornScattering/Data/marmousi_II_marine.vp"
 
     # Open file and write binary data to vp
     f = open(name_vp)
@@ -26,8 +26,8 @@ if __name__ == "__main__":
     vp = vp.reshape(nx, nz)
 
     # Save Marmousi
-    np.savez("TimeDependentBornScattering/Data/marmousi-vp.npz", vp)
-    with np.load("TimeDependentBornScattering/Data/marmousi-vp.npz") as data:
+    np.savez("Thesis-TimeDependentBornScattering/Data/marmousi-vp.npz", vp)
+    with np.load("Thesis-TimeDependentBornScattering/Data/marmousi-vp.npz") as data:
         vp = data["arr_0"]
 
     # Compute water bottom (answer is 22)

@@ -15,7 +15,7 @@ if __name__ == "__main__":
     This script performs CIG experiment
     """
 
-    basepath = "TimeDependentBornScattering/"
+    basepath = "Thesis-TimeDependentBornScattering/"
     figdir = basepath + "Fig/"
 
     # -----------------------------------------------------------------------------

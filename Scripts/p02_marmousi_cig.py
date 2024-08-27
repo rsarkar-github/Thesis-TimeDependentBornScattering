@@ -115,7 +115,7 @@ def marmousi_cig(scale_fac, figdir, datadir, nx, nz, vp, cig_aspect, thread_num)
 
 if __name__ == "__main__":
 
-    _basepath = "TimeDependentBornScattering/"
+    _basepath = "Thesis-TimeDependentBornScattering/"
     _figdir = _basepath + "Fig/"
     _datadir = _basepath + "Data/"
 

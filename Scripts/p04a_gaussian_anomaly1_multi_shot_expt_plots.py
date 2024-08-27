@@ -12,7 +12,7 @@ configuration['log-level'] = 'WARNING'
 
 if __name__ == "__main__":
 
-    basepath = "TimeDependentBornScattering/"
+    basepath = "Thesis-TimeDependentBornScattering/"
     figdir = basepath + "Fig/"
     datadir = basepath + "Data/"
     filestr = "p04_gaussian_anomaly1_multi_shot"
